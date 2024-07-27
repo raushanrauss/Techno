@@ -26,7 +26,7 @@ const Home = () => {
       setLoading(true)
       try {
 
-        const { data } = await axios.get(`https://techno-3.onrender.comhttps://techno-3.onrender.com/story/getAllStories?search=${searchKey || ""}&page=${page}`)
+        const { data } = await axios.get(`https://techno-3.onrender.com/story/getAllStories?search=${searchKey || ""}&page=${page}`)
 
         if (searchKey) {
           navigate({
