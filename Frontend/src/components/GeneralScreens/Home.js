@@ -13,6 +13,7 @@ const Home = () => {
   const search = useLocation().search
   const searchKey = new URLSearchParams(search).get('search')
   const [stories, setStories] = useState([])
+  
   const [loading, setLoading] = useState(true)
   const navigate = useNavigate()
   const [page, setPage] = useState(1);
@@ -51,7 +52,7 @@ const Home = () => {
       }
     }
     getStories()
-  }, [setLoading, search, page, navigate])
+  }, [setLoading, search, page, navigate,searchKey])
 
 
   useEffect(() => {
