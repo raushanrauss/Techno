@@ -72,7 +72,7 @@ const Home = () => {
           {
             [...Array(6)].map(() => {
               return (
-                // theme dark :> default : light
+                // theme dark :> default :light
                 <SkeletonStory key={uuidv4()} />
               )
             })}
