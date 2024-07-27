@@ -1,1 +1,2 @@
-let a="Hello"
+let a = "Hello"
+let b="Hii"
