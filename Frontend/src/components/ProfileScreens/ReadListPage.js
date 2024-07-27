@@ -21,7 +21,7 @@ const ReadListPage = () => {
             setLoading(true)
 
             try {
-                const { data } = await (await axios.get(`/user/readList`, config)).data
+                const { data } = await (await axios.get(`https://techno-3.onrender.com/user/readList`, config)).data
                 setReadList(data)
                 setLoading(false)
             }
