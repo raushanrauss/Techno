@@ -24,7 +24,7 @@ const RegisterScreen = () => {
 
     try {
       const { data } = await axios.post(
-        "/auth/register",
+        "https://techno-3.onrender.com/auth/register",
         {
           username,
           email,
