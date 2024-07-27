@@ -42,8 +42,12 @@ const Home = () => {
 
 
         }
-        setStories(data.data)
-        setPages(data.pages)
+        if (data.data) {
+          setStories(data.data)
+          setPages(data.pages)
+        }
+       
+      
 
         setLoading(false)
       }
@@ -77,7 +81,7 @@ const Home = () => {
         :
         <div>
           <div className="story-card-wrapper">
-            {stories.length !== 0 ?
+            {stories?.length !== 0 ?
               stories.map((story) => {
                 return (
                   <CardStory key={uuidv4()} story={story} />
