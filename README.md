@@ -138,11 +138,11 @@ This project was created using the following technologies.
 ![11](https://user-images.githubusercontent.com/111676859/226197338-3e530bc6-e7bf-4e4a-9284-165f85be47d2.png)
 
 ## Author
-- Portfolio: [berthutapea](https://stunning-kulfi-6ba11f.netlify.app/)
-- Github: [berthutapea](https://github.com/raushanrauss/)
+- Portfolio: [https://stunning-kulfi-6ba11f.netlify.app/](https://stunning-kulfi-6ba11f.netlify.app/)
+- Github: [https://github.com/raushanrauss/](https://github.com/raushanrauss/)
 
-- Linkedin: [gilberthutapea](https://www.linkedin.com/in/raushan-kumar-524280291/)
-- Email: [berthutapea@gmail.com](mailto:rausskr6565@gmail.com)
+- Linkedin: [https://www.linkedin.com/in/raushan-kumar-524280291/](https://www.linkedin.com/in/raushan-kumar-524280291/)
+- Email: [rausskr6565@gmail.com](mailto:rausskr6565@gmail.com)
 
 
 
