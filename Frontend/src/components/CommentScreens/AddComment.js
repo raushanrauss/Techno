@@ -93,7 +93,7 @@ const AddComment = ({ setSidebarShowStatus, slug, getStoryComments, activeUser, 
 
 
                     <div className={showStatus ? 'activeuser-info ' : 'activeuser-info hidden '}>
-                        <img src={`/userPhotos/${activeUser.photo}`} alt={activeUser.username} />
+                        <img src={`https://techno-3.onrender.com/userPhotos/${activeUser.photo}`} alt={activeUser.username} />
                         <span className='username'>{activeUser.username}  </span>
                     </div>
 
